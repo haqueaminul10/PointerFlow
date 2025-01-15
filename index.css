@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.border {
+  border: 2px solid red;
+}
+.shop-now {
+  background-color: #45726c;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 20px;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+}
