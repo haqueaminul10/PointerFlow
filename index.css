@@ -6,6 +6,10 @@
 .border {
   border: 2px solid red;
 }
+.title-main {
+  font-size: 72px;
+  font-weight: 300px;
+}
 .shop-now {
   background-color: #45726c;
   font-size: 16px;
