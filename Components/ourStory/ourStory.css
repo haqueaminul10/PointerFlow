@@ -1,0 +1,51 @@
+.our-story-container {
+  margin: 20px 300px;
+  position: relative;
+}
+
+.our-story {
+  font-size: 72px;
+  font-weight: 200;
+  text-align: center;
+}
+.show-text {
+  font-size: 108px;
+  font-weight: 300;
+  text-align: center;
+}
+.image-div {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+.image-ponds {
+  width: 450px;
+  height: 420px;
+}
+.see-all-button {
+  background-color: none;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 20px;
+
+  padding: 7px 15px;
+  border: 1px solid black;
+}
+.button-section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 1120px) {
+  .our-story-container {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 940px) {
+  .our-story-container {
+    margin: 0;
+  }
+}

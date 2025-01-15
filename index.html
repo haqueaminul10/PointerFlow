@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./Components/hero/hero.css" />
     <link rel="stylesheet" href="./Components/header/heder.css" />
-    <link rel="stylesheet" href="./Components//hero/hero.css" />
     <link
       rel="stylesheet"
       href="./Components/product category/product category.css"
     />
+    <link rel="stylesheet" href="./Components/newarrives/newarrives.css" />
+    <link rel="stylesheet" href="./Components/ourStory//ourStory.css" />
     <title>Document</title>
   </head>
   <body>
     <!-- HEADER PART START -->
-
     <header>
       <div class="header-container">
         <div class="navbar-section">
@@ -89,114 +90,89 @@
         </div>
       </div>
     </header>
-
     <!-- HEADER PART END -->
 
     <!-- HERO PART START -->
-
-    <div class="hero-container">
-      <section class="repsonsive-part">
-        <h1 class="hero-header">Bring Out Your Skin's</h1>
-        <div class="natural-glow-section">
-          <h1 class="hero-header">Natural Glow</h1>
-          <div>
-            <img src="../assets/product.png" alt="" class="product-image" />
-          </div>
-        </div>
-        <p class="discove-part">
-          Discover the beauty of healthy.radiant skin with our carefully crafted
-          skincare solutions.
-        </p>
-
-        <div class="hero-members">
-          <div class="hero-member">
-            <h3 class="number-count">100%</h3>
-            <p class="number-details">Organic Product</p>
-          </div>
-          <div class="hero-member">
-            <h3 class="number-count">1355+</h3>
-            <p class="number-details">Premium Product</p>
-          </div>
-          <div class="hero-member">
-            <h1 class="number-count">4k+</h1>
-            <p class="number-details">Premium Product</p>
-          </div>
-        </div>
-
-        <div class="hero-button">
-          <button class="shop-now">Shop Now</button>
-          <button class="how-to-use">
-            <img
-              src="../assets/svgviewer-png-output.png"
-              alt=""
-              class="play-button"
-            />
-            How To Use
-          </button>
-        </div>
-      </section>
-      <section class="banner-reposnsive">
-        <div class="hero-banner">
-          <img src="../assets/Group 17.svg" alt="" class="banner-image" />
-        </div>
-      </section>
-    </div>
-    <div class="explore">
-      <img
-        src="../assets/svgviewer-png-output (1).png"
-        alt=""
-        class="play-button"
-      />
-    </div>
-    <p class="explore explore-text">Explore</p>
-
+    <div id="hero"></div>
     <!-- HERO PART END -->
 
-    <!-- PRODUCT CATEGORY PART -->
-    <div class="product-c-container">
-      <div>
-        <h3 class="product-c-title">Product Category</h3>
-      </div>
+    <!-- PRODUCT CATEGORY START -->
+    <div id="product-category"></div>
+    <!-- PRODUCT CATEGORY END -->
 
-      <div class="product-c-section">
-        <div class="cat-items">
-          <p class="c-title">Cleansers</p>
-          <p class="c-count">10</p>
-        </div>
-        <div class="cat-items">
-          <h2 class="c-title">Moistrizers</h2>
-          <p class="c-count">16</p>
-        </div>
-        <div class="cat-items responsive-part">
-          <h2 class="c-title">Masks</h2>
-          <p class="c-count">23</p>
-        </div>
-      </div>
-
-      <div class="product-c-2-section">
-        <div class="cat-items-2">
-          <h2 class="c-title">Sunscreens</h2>
-          <p class="c-count">54</p>
-          <div class="night-creame">
+    <!-- NEW ARRIVES START -->
+    <div class="carousel-container">
+      <div class="header-part">
+        <h1 class="new-arrival">New Arrival</h1>
+        <div class="arrow-controls">
+          <div id="leftArrow">
             <img
-              src="../assets//night_cream_3 1.png"
-              alt=""
-              class="night-crm-img"
+              src="../assets/leftIcon.png"
+              alt="Left Arrow"
+              class="arrow-image"
+            />
+          </div>
+          <div id="rightArrow">
+            <img
+              src="../assets/rightIcon.png"
+              alt="Right Arrow"
+              class="arrow-image"
             />
           </div>
         </div>
-        <div class="cat-items">
-          <h2 class="c-title">Serums</h2>
-          <p class="c-count">34</p>
-        </div>
       </div>
+      <section class="carousel">
+        <div class="carousel-item">
+          <img
+            src="../assets/Frame 41.png"
+            alt="Product 1"
+            class="carousel-image"
+          />
+          <p class="product-title">Moisturizers</p>
+          <p class="product-des">Glow Guard Serum</p>
+          <p class="product-price">$32</p>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/Frame 42.png"
+            alt="Product 2"
+            class="carousel-image"
+          />
+          <p class="product-title">Cleansers</p>
+          <p class="product-des">Purity Foam</p>
+          <p class="product-price">$24</p>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/Frame 43.png"
+            alt="Product 3"
+            class="carousel-image"
+          />
+          <p class="product-title">Serums</p>
+          <p class="product-des">Hydration Boost</p>
+          <p class="product-price">$28</p>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/Frame 44.png"
+            alt="Product 4"
+            class="carousel-image"
+          />
+          <p class="product-title">Sunscreens</p>
+          <p class="product-des">Protective Shield</p>
+          <p class="product-price">$35</p>
+        </div>
+      </section>
     </div>
+    <!-- NEW ARRIVES END -->
 
-    <!-- PRODUCT CATEGORY END -->
+    <!-- OUR STORY START -->
+    <div id="ourStory"></div>
+    <!-- OUR STORY END -->
+
     <script src="./index.js"></script>
     <script src="./Components/header/heder.js"></script>
-    <script src="./Components//hero/hero.js"></script>
-    <script></script>
+    <!-- <script src="./Components/newarrives/newarrives.js"></script> -->
     <script></script>
     <script></script>
   </body>
