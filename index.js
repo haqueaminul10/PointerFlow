@@ -24,4 +24,5 @@ document.addEventListener('DOMContentLoaded', () => {
     'why-we-choose',
     './Components/why-we-chose/why-we-choose.html'
   );
+  loadComponent('offer', './Components/offer/offer.html');
 });
