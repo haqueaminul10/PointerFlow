@@ -31,12 +31,13 @@ itemsArray.forEach((item) => {
   const itemDiv = document.createElement('div');
   itemDiv.classList.add('protect-screen-item');
   itemDiv.innerHTML = `
-        <img src="${item.image}" alt="${item.title}">
+        
         <div class="content">
             <h2>${item.title}</h2>
             <p>${item.description}</p>
             <button>${item.buttonText}</button>
         </div>
+        <img src="${item.image}" alt="${item.title}">
     `;
   protectScreen.appendChild(itemDiv);
 });
@@ -48,7 +49,7 @@ const rightArrow = document.getElementById('rightArrow');
 let index = 0;
 
 function showItem(index) {
-  protectScreen.style.transform = `translateX(-${index * (100 / 2)}%)`; // Shift by half the width since we show 2 items at a time
+  protectScreen.style.transform = `translateX(-${index * (100 / 2)}%)`;
 }
 
 leftArrow.addEventListener('click', () => {

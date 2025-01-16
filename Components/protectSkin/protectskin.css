@@ -13,6 +13,9 @@
 .protect-screen {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .protect-screen-item {
@@ -21,6 +24,9 @@
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  gap: 0px;
+  border-radius: 30px;
+  border: 1px solid pink;
 }
 
 .main-title {
@@ -31,6 +37,7 @@
   width: 50%;
   border-radius: 10px;
   margin-right: 20px;
+  background-color: #f0f4f7;
 }
 
 .content {
@@ -49,10 +56,11 @@
 }
 
 button {
-  padding: 10px 20px;
+  padding: 7px;
+
   font-size: 1rem;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
   cursor: pointer;
 }
 
