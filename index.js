@@ -20,4 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     './Components/product category/productCategory.html'
   );
   loadComponent('ourStory', './Components/ourStory/ourStory.html');
+  loadComponent(
+    'why-we-choose',
+    './Components/why-we-chose/why-we-choose.html'
+  );
 });
